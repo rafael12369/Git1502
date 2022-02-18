@@ -1,0 +1,21 @@
+Comandos Criar
+Clonar um repositorio existente
+$ git clone ssh://usuario@domain.com/repo.git
+Criar um novo repositório local
+$ git init
+
+Comandos Comentar
+Adiciona ao repositorio git local
+$ git add --all && git commit -m
+
+Comandos Configurar
+Configura o login
+$ git config --global user.name [username] && $ git config --global email
+
+Comandos Enviar
+Define a rota do repositorio remoto
+$ git remote add origin ssh://usuario@domain.com/repo.git
+Cria um ramo do repositorio original
+$ git branch master
+Transfere para o repositorio remoto
+$ git push origin master
