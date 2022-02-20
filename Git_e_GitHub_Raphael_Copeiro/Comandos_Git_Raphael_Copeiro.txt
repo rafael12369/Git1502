@@ -1,0 +1,24 @@
+Init: cria um repositório local;
+$ git init
+
+Clone: Utilizado para clonar o repositório;
+$ git clone <URL>
+
+Add: Serve para adicionar um arquivo para o State Area, para que seja vinculado a um próximo commit;
+$ git add .  (adiciona todos os arquivos)
+$ git add <nome_do_arquivo>  (adiciona um arquivo específico)
+
+Commit: Comando que serve para mover os arquivos do State Area para o repositório local;
+$ git commit -m <nome passo>
+
+Pull: Utilizado para buscar e trazer mudanças do repositório remoto para o repositório local,
+ou seja, unir os conteúdos dos arquivos alterados. Em alguns casos, pode ser necessária uma
+intervenção humana para realizar essa união;
+$ git pull
+
+Push: Utilizado para enviar o arquivo do repositório local para o remoto;
+$ git push
+
+Merge: Serve para mesclar commits e Branchs na Branch atual;
+$ git merge 
+
